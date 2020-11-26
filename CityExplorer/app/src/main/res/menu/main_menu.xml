@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/home"
+            android:id="@+id/nav_home"
+            android:title="@string/home" />
+        <item
+            android:icon="@drawable/mapp"
+            android:id="@+id/map"
+            android:title="MAP" />
+        <item
+            android:icon="@drawable/preview_photo"
+            android:id="@+id/galleryView"
+            android:title="JOURNEY GALLERY" />
+        <item
+            android:icon="@drawable/categories"
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/profile"
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile" />
+                <item
+                    android:icon="@drawable/logout"
+                    android:id="@+id/nav_logout"
+                    android:title="@string/logout" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Categories">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/landmarks"
+                    android:id="@+id/nav_landmarks"
+                    android:title="@string/landmarks" />
+                <item
+                    android:icon="@drawable/restaurant_icon"
+                    android:id="@+id/restaurant"
+                    android:title="@string/restaurants" />
+                <item
+                    android:icon="@drawable/coffee"
+                    android:id="@+id/nav_cafes"
+                    android:title="@string/cafes" />
+                <item
+                    android:icon="@drawable/shop_icon"
+                    android:id="@+id/nav_shop"
+                    android:title="@string/shops" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">City Explorer</string>
+    <string name="logo_name">City Explorer</string>
+    <string name="slogan_name">Get to know your City </string>
+
+    <string name="google_maps_API_key"> AIzaSyBHsVBODzKlsCvkjyQQlTog5SLIBmuEprk </string>
+    <!-- Strings for Dashboard  -->
+
+    <!--Categories-->
+    <string name="landmarks">Landmarks</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="parks">Parks</string>
+    <string name="cafes">Cafes</string>
+    <string name="museums">Museums</string>
+    <string name="leisure">Leisure</string>
+    <string name="all"> All</string>
+
+    <!--Titles and Descriptions-->
+    <string name="featured_locations">Featured Locations</string>
+    <string name="featured_locations_description">This weeks handpicked top locations to visit.</string>
+    <string name="most_viewed_locations">Most Popular</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search...</string>
+
+
+    <string name="home">HOME</string>
+    <string name="all_categories">ALL CATEGORIES</string>
+
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>

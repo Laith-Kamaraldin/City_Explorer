@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#d9b948</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- menu style -->
+    <style name="navtheme">
+
+        <!-- text highlight -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- background -->
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+
+</resources>

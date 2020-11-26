@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#5493BD"
+    android:paddingLeft="15dp">
+
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:text="@string/slogan_name" />
+
+    <TextView
+        android:fontFamily="@font/bungee"
+        android:id="@+id/app_name"
+        android:layout_above="@id/menu_slogan"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/logo_name"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:layout_above="@id/app_name"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:src="@drawable/bank_icon" />
+
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="175dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-26dp"
+        android:layout_marginBottom="-2dp"
+        android:src="@drawable/halflogo" />
+
+
+</RelativeLayout>

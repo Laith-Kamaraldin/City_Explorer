@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046379040628",
+    "firebase_url": "https://cityexplorer-a52e8.firebaseio.com",
+    "project_id": "cityexplorer-a52e8",
+    "storage_bucket": "cityexplorer-a52e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046379040628:android:52ce8ec169768dbbc8a621",
+        "android_client_info": {
+          "package_name": "com.laithkamaraldin.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046379040628-suekq5ndql30q0npg1tpa4jc4dr9n6ah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laithkamaraldin.myapplication",
+            "certificate_hash": "c6d53a28fcd56cfd4e8537c36be1bda67bdd2a22"
+          }
+        },
+        {
+          "client_id": "1046379040628-2natd3n690p0rkvvo1l380j6gfaccahl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW9r8kUoE9Vs-tQQQRcGsG_I4lie0PXDU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046379040628-2natd3n690p0rkvvo1l380j6gfaccahl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

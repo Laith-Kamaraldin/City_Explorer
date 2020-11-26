@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Gallery">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bgg"
+            android:transitionName="logo_image" />
+
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/bungee"
+            android:text="Photo Upload"
+            android:textColor="#000"
+            android:textSize="38sp"
+            android:transitionName="logo_text"
+            android:translationY="-25sp" />
+
+        <TextView
+            android:id="@+id/slogan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:text="Memories to remember"
+            android:translationY="-25sp"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:transitionName="logo_desc" />
+
+        <Button
+            android:id="@+id/picture_select_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:onClick="uploadImage"
+            android:text="Pick Image To Upload"
+            android:textColor="#fff"
+            android:transitionName="button_tran" />
+
+
+        <ImageView
+            android:id="@+id/upload_preview"
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/preview_photo"
+            />
+
+        <ProgressBar
+            android:id="@+id/uploadProgress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/upload_preview" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/img_description"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Image Description">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="40sp"
+                android:inputType="text" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/picture_upload_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_border"
+            android:onClick="uploadImage"
+            android:text="Upload"
+            android:textColor="#fff"
+            android:transitionName="button_tran" />
+
+        <Button
+            android:id="@+id/back_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="#fff"
+            android:elevation="0dp"
+            android:onClick="callSignUpScreen"
+            android:text="Gallery"
+            android:textColor="#000"     />
+        <!-- gallery position not final maybe position in top right with back arrow icon depending on flow-->
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
